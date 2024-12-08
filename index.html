@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     /*Create ,Read, Update, Delete*/
@@ -12,7 +13,10 @@
    
 <div id="main">
    <div><h1>My Tasks</h1>
-    <h2>Create a new Task</h2></div>
+    
+   <input type="text" placeholder="Add your task"></input>
+   <button onclick=addTodo()>Add task</button>
+</div>
    <div class="task"><h2>To Do</h2>
    </div>
    <div class="task"><h2>In Progress</h2>
@@ -25,4 +29,6 @@
 
     
 </body>
+<script src="script.js"></script>
+
 </html>
